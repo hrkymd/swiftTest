@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		182BA47A1D66084200BC7BAF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BA4791D66084200BC7BAF /* main.swift */; };
+		182BA4811D66086E00BC7BAF /* TTestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BA4801D66086E00BC7BAF /* TTestClass.swift */; };
+		186064001D660CC100FF88CC /* TTestSuperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186063FF1D660CC100FF88CC /* TTestSuperClass.swift */; };
+		186064021D66B7C100FF88CC /* ITestProtcol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186064011D66B7C100FF88CC /* ITestProtcol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		182BA4761D66084200BC7BAF /* SwiftPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		182BA4791D66084200BC7BAF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		182BA4801D66086E00BC7BAF /* TTestClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTestClass.swift; sourceTree = "<group>"; };
+		186063FF1D660CC100FF88CC /* TTestSuperClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTestSuperClass.swift; sourceTree = "<group>"; };
+		186064011D66B7C100FF88CC /* ITestProtcol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITestProtcol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				182BA4791D66084200BC7BAF /* main.swift */,
+				182BA4801D66086E00BC7BAF /* TTestClass.swift */,
+				186063FF1D660CC100FF88CC /* TTestSuperClass.swift */,
+				186064011D66B7C100FF88CC /* ITestProtcol.swift */,
 			);
 			path = SwiftPractice;
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				182BA47A1D66084200BC7BAF /* main.swift in Sources */,
+				186064021D66B7C100FF88CC /* ITestProtcol.swift in Sources */,
+				182BA4811D66086E00BC7BAF /* TTestClass.swift in Sources */,
+				186064001D660CC100FF88CC /* TTestSuperClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +253,7 @@
 				182BA47F1D66084200BC7BAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
